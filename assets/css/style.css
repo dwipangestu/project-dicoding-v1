@@ -1,0 +1,890 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+*, html, body {
+    margin:0; 
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Roboto;
+    width: auto;
+     
+}
+section {
+    height: auto;
+    margin: auto;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.content {
+    background: rgb(155, 34, 34);
+    width: auto;
+}
+
+.decoration-top {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    max-width: 20px;
+}
+
+.img-love {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.img-love>img {
+    width: 50px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+} 
+
+.beranda {
+    display: flex;
+    padding-top: 50px;
+    height: auto;
+    background-color: #f3cdaa;  
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.beranda-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.beranda-img > img {
+    max-width: 1000px;
+    padding-bottom: 20px;
+}
+
+.deskripsi {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -200px;
+    margin-top: 15%;
+}
+
+
+/* NAVBAR */
+.navbar ul {
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    color: #111111;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-logo {
+    flex: 1;
+    font-size: 1.5rem;
+    user-select: none;
+}
+
+.navbar-logo {
+    color:#111111;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-links:hover a{
+    color: rgb(197, 58, 58);
+    }
+
+.tittle {
+    font-weight: 1000px;
+    font-size: 75px; 
+    font: bold;
+    color: #ffffff;
+    
+}
+.logo-love {
+    display: block;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.desk { 
+    font-size: 23px;
+    margin: 0px 0px 12px 0px;
+    color: #ffffff;
+}
+
+.sejarah {
+    display: flex;
+    height: 100vh;
+    background-color: #ec6d57;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.sejarah-title{
+    text-align: center;
+    padding: 3%;
+
+}
+
+.sejarah > article {
+    width: 60%;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.sejarah-img {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1.5s;
+}
+
+.sejarah-img > img{
+    width: 300px;
+    height: auto;
+}
+
+.sejarah-img:hover {
+    transform: scale(1.2);
+}
+
+.penularan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.penularan-article{
+    height: 100vh;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    color: #ca4f3a;
+    
+}
+
+.sub-penularan-title {
+    margin-bottom: 3%;
+}
+
+.penularan-img {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 1.5s;
+    padding: 30px;
+}
+.penularan-img:hover {
+    transform: scale(1.2);
+}
+
+.penularan-img > img {
+    width: 300px;
+}
+
+.dec-penularan {
+    position: absolute;
+    top: 20px;
+    right: 1280px;
+    max-width: 20px;
+}
+
+.gejala {
+    display: flex;
+    background-color: #ec6d57;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #ffffff;  
+}
+
+.judul-gejala {
+    display: flex;
+    padding-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.gejala-sapi{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding: 20px;
+}
+
+.img-sapi{
+    flex-direction: column;
+    width: auto;
+    transition: transform 1.5s; 
+}
+.img-sapi:hover {
+    transform: scale(1.2);
+}
+
+.gejala-domba {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.domba-article{
+    flex: 1;
+}
+
+.img-domba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 30px;
+    transition: transform 1.5s;
+}
+
+.img-domba:hover{
+    transform: scale(1.2);
+}
+
+.img-domba>img {
+    width: 200px;
+    height: auto;
+}
+
+#pencegahan{
+    height: auto;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.pencegahan-article{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: #c74d37;
+}
+.pencegahan-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.pencegahan-detail{
+    display: flex;
+}
+
+#data {
+    height: auto;
+    background-color: #f3cdaa;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+
+#data > div {
+    width: 400px;
+    height: 360px;
+    background-color: #ec6d57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    box-shadow: 0 7px 15px 0  rgba(0, 0, 0, 0.5);  
+    color: #030303;  
+}
+
+#data > div > h2 {
+    padding: 20px;
+}
+
+#data > div > img {
+    max-width: 350px;
+}
+
+.data-title {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#biodata {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f3cdaa;
+}
+
+.jumlah-indo p {
+    font-size: 30px;
+}
+
+/* data */
+.indo {
+    transition: transform 1.5s;
+}
+
+.indo img{
+    padding: 8%; 
+}
+.indo:hover {
+    transform: scale(1.2);
+}
+.vaksin {
+    transition: transform 1.5s;
+}
+.vaksin:hover {
+    transform: scale(1.2);
+}
+.vaksin>img {
+    padding: 10%;
+    width: 100px;
+}
+
+.data-vaksin p {
+    font-size: 30px;
+}
+
+#biodata > div {
+    flex-direction: column;
+    background-color: #050505;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    width: 270px;
+    justify-content: center;
+    border-radius: 5%;
+    margin: 10%;
+    box-shadow: 0 7px 15px 0  rgba(0, 0, 0, 0.5);
+}
+
+aside p {
+    color: #ffffff;
+}
+
+.bio {
+    transition: transform 1.5s;
+}
+
+.bio:hover {
+    transform: scale(1.2);
+}
+
+.img-profile {
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+}
+
+.email-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nama-profile {
+    display: flex;
+    align-items: center;
+    color: #d8d8d8;
+}
+
+.nama-profile>img{
+    max-width: 20px;
+    padding: 10px;
+}
+
+.email-logo {
+    display: flex;
+    align-items: center;
+    color: #d8d8d8;
+}
+.email-logo>img{
+    max-width: 20px;
+    padding: 10px;
+}
+
+#scroll-btn {
+    background-color: #ec6d57;
+    display: flex;
+    position: fixed;
+    bottom: 18px;
+    right: 28px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 0 7px 15px 0  rgba(0, 0, 0, 0.5);
+    transition: transform 1.5s;
+
+    
+  }
+
+  #scroll-btn:hover {
+    background-color: #f3cdaa;
+    transform: scale(1.1);
+    color: #ec6d57;
+  }
+
+.create {
+    display: flex;
+    color: rgb(201, 196, 196);
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    justify-content: center;
+    padding-right: 10%;
+    margin-top: 2%;
+    margin-left: 90px;
+    border-right: #858484 solid 3px;
+    
+}
+
+.media-social {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 350px;
+    flex-direction: column;
+    padding: 1%;
+    align-items: left;
+    padding: 25px 0px ;
+    margin-left: -200px;
+}
+
+.media-social a {
+    text-decoration: none;
+    color: rgb(201, 196, 196);
+    display: flex;
+    flex-direction: column;
+}
+
+.media-social img {
+    padding: 4px;
+}
+
+.media-social .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    padding: 20px;
+    color: rgb(201, 196, 196);
+    background-color: #0A0A0F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: small;
+}
+
+
+@media only screen and (max-width: 768px) {    
+    body {
+        width: 100%;
+    }
+
+    .navbar ul{
+        flex-wrap: wrap;
+    }
+    .navbar-toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .navbar-toggle img {
+        display: block;
+        max-width: 14px;        
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .active {
+        display: block;
+    }
+    #beranda{
+        display: flex;
+        flex-direction: row;      
+      
+    }
+
+    .beranda-img{
+        display: flex;  
+        width: auto;  
+        padding: 0%;
+        margin: 0%;    
+    }
+    .beranda-img > img {
+        max-width: 160px;
+    }
+    
+    .deskripsi {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: left;
+        width: auto;
+        margin: auto;
+    }
+
+    .deskripsi h4 {
+        margin-top: 0%;
+        font-size: 48px;       
+    }
+
+    .deskripsi p {
+        font-size: 18px;
+    }
+    
+    .sejarah {
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;        
+        text-align: justify;
+        font-size: 14px;
+       
+    }
+
+    .sejarah-img {
+        margin-top: 10px;
+        padding: 10px;
+        width: auto;
+        height: auto;
+    }
+
+    .sejarah-img>img {
+        width: 200px;
+        height: auto;
+    }
+
+    .sejarah > article {
+        width: 100%;
+    }
+
+    .sejarah-title {
+        font-size: 20px;
+    }
+
+    .sejarah-article {
+        padding-bottom: 10%;
+
+    }
+    
+
+    .penularan {
+      display: flex;
+      flex-direction: column;  
+      padding: 0%;
+      margin: 0%;
+      height: auto;
+      
+    }
+    
+    .penularan-article {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+        
+    }
+
+    .penularan-detail {
+        margin: auto;
+       
+    }
+    
+    .sub-penularan-title {
+        
+        font-size: 20px;
+    }
+
+    .artikel-penularan{
+        margin-left: 0%;
+        font-size: 14px;
+        
+        
+    } 
+
+    .penularan-img>img {
+        width: 200px;
+        height: auto;
+    }
+
+    .penularan-img {
+        padding-bottom: 0px;
+    }
+
+
+    .gejala {
+
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        text-align: justify;       
+        padding: 5%;
+        font-size: 14px;
+        margin: 0px;
+    }
+    .judul-gejala {
+        padding-top: 30px;
+    }
+    .gejala-sapi{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .img-sapi{
+        width: auto;
+        align-items: center;
+        padding: 20px;
+    }
+    .img-sapi:hover {
+        transform: scale(1.1);
+    }
+
+    
+    .img-sapi>img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: auto;
+        
+    }
+    
+    .gejala-domba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .domba-article {
+        display: flex;
+        margin: auto;
+        width: auto;
+    }
+    
+    .img-domba{
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .img-domba>img {
+        width: 150px;
+        height: auto;
+    }
+
+    .img-domba:hover {
+        transform: scale(1.1);
+    }
+    
+    #data {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #data > h2 {
+        margin-top: 10%;
+    }
+
+    #data > div {
+        margin: 20px 0px;
+    }
+
+    #pencegahan {
+        display: flex;
+        height: auto;
+        background-color: #ffffff;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: none;        
+        text-align: justify;  
+        
+    }
+    article{
+        color: #ec6d57;
+    }
+
+    .judul-pencegahan{
+        margin-left: -5%;
+    }
+
+    .pencegahan-title {
+        padding-bottom: 0px;
+        font-size: 18px;
+        text-align: center;
+    }   
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        font-size: small;
+    }
+
+    .create {
+        display: flex;
+        height: 0px;
+        width: 80%;
+        justify-content: center;
+        padding-right: 0%;
+        margin-left: 0%;
+        padding-bottom: 20px;
+        border-right: none;
+    }
+    
+    .media-social {
+        display: flex;
+        justify-content: space-between;
+        height: 20%;
+        width: 80%;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 0px ;
+        margin-left: 0px;
+    }
+    
+    .media-social a {
+        text-decoration: none;
+        flex-direction: row;       
+
+    }
+
+    .logo>img {
+        max-width: 20px;
+    }
+
+    .indo {
+        transition: transform 1.5s;
+    }
+    .indo:hover {
+        transform: scale(1.1);
+    }
+    .vaksin {
+        transition: transform 1.5s;
+    }
+    .vaksin:hover {
+        transform: scale(1.1);
+    }   
+    #biodata > div {
+        flex-direction: column;
+        background-color: #0A0A0F;
+        align-items: center;
+        display: flex;
+        height: 200px;
+        width: 200px;
+        justify-content: center;
+        border-radius: 10%;
+        margin: 10%;
+        box-shadow: 0 7px 15px 0  rgba(0, 0, 0, 0.5);
+    }
+
+    .data-profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .nama-profile {
+        display: flex;
+        align-items: center;
+        color: #d8d8d8;
+    }
+
+    .img-profile {
+        max-width: 70px;
+    }
+    
+    .nama-profile>img{
+        max-width: 15px;
+        height: auto;
+    }
+    
+    .nama-profile {
+        
+        font-size: 11px;
+    }
+    
+    .email-logo {
+        font-size: 11px;
+    }
+    
+    .email-logo>img{
+        max-width: 15px;
+        height: auto;
+    }
+    .decoration-top {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        max-width: 15px;
+    }
+  
+}
+
